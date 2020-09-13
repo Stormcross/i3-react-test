@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import './SlideShow.css'
 
 function SlideShow() {
   const [images, setImages] = useState([]);
@@ -51,7 +52,7 @@ function SlideShow() {
           {images.map((current) => (
             <div className="out" key={current.id}>
               <div className="card">
-                <img
+                <img className="pictureOnDisplay"
                   // className="rounded-circle"
                   alt={"users here"}
                   src={`https://source.unsplash.com/random/${current.id}`}
