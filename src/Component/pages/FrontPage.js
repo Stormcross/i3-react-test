@@ -15,7 +15,7 @@ export default function frontPage(){
             </p>
             <br></br>
             <p>
-                2. Page: Text with images on Financial Highlihts                
+                2. Page: Text with images on "Financial Highlihts"                
             </p>
         </div>
         )
